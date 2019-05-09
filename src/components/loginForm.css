@@ -1,0 +1,26 @@
+#loginBtn {
+	height:35px;
+	width: 100px;
+	margin:9% auto 0 auto;
+	border-radius: 5px;
+	font-size: 20px;
+	font-weight: bold;
+	display:block;
+	background-color: blue;
+	color:white;	
+}
+
+input[type=text], input[type=password]{
+	width:95%;
+	padding-left:3px;
+}
+
+.demoClass{
+	font-size:14px;
+	font-weight: 550;
+}
+
+.demoClass div:first-child{
+	text-decoration: underline;
+	margin-bottom: 5px;
+}
