@@ -7,7 +7,7 @@ import LoginForm from './loginForm';
 export function Login(props){
 
 	if(props.loggedIn){
-		return <Redirect to="/" />;
+		return <Redirect to="/home" />;
 	}
 
 	return(

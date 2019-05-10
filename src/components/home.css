@@ -1,6 +1,8 @@
 .homeCls{
-	display:inline-block;
-	width:80%;
+	display: inline-block;
+    width: 80%;
+    height: 80%;
+    margin-left: 200px;
 
 }
 
@@ -11,12 +13,26 @@
 }
 
 textArea{
-	width: 60%;
-	margin-left:250px;
-	display:inline-block;
-	margin-top: 50px;
+	width: 70%;
+    margin-left: 20px;
+    display: inline-block;
+    margin-top: 50px;
 }
 
 .tweetForm>button{
-	margin-right:220px;
+	margin-left: 170px;
+}
+
+.tweetCls{
+	margin: 0 auto;
+	border:3px solid green;
+	display: inline-block;
+	width: 100%;
+	height: auto;
+}
+.tweetList{
+	width: 70%;
+	height: 60px;
+	border:1px solid blue;
+	margin:0 auto;
 }
