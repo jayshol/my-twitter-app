@@ -21,7 +21,7 @@ export function TopNav(props){
 	return(
 		<header className="container" role="banner">			
 			<nav className="navbar">
-				<h1>{props.user}</h1>
+				<h1>{props.userName}</h1>
 				<ul>
 					{menuItems}
 				</ul>
@@ -32,7 +32,8 @@ export function TopNav(props){
 }
 
 const mapStateToProps = (state) => ({
-	menuItems : state.twitter['menuItems']
+	menuItems : state.twitter['menuItems'],
+	loggedIn : state.auth.currentUser !== null
 });
 
 export default connect(mapStateToProps)(TopNav);

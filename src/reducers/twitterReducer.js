@@ -3,12 +3,7 @@ const initialState = {
 		id: 'login',
 		name: 'Login',
 		loggedIn:false		
-	},
-	{
-		id: 'signUp',
-		name: 'Sign Up',
-		loggedIn:false		
-	},
+	},	
 	{
 		id:'home',
 		name: 'Home',
@@ -18,7 +13,8 @@ const initialState = {
 		id:'logout',
 		name:'Logout',
 		loggedIn:true
-	}]
+	}],
+	error:null
 }
 
 export default function twitterReducer(state=initialState, action){

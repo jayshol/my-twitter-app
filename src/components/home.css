@@ -1,0 +1,22 @@
+.homeCls{
+	display:inline-block;
+	width:80%;
+
+}
+
+.tweetForm{
+	width: 500px;
+	height: 300px;
+	margin: 20px auto 20px 200px;
+}
+
+textArea{
+	width: 60%;
+	margin-left:250px;
+	display:inline-block;
+	margin-top: 50px;
+}
+
+.tweetForm>button{
+	margin-right:220px;
+}

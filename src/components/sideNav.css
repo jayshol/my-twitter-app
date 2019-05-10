@@ -1,0 +1,7 @@
+.sideNavCls{
+	height:90vh;
+	width: 20%;
+	background-color: lightblue;
+	display:inline-block;
+	position: fixed;
+}

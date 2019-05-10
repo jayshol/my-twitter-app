@@ -42,6 +42,7 @@ const storeAuthInfo = (authToken, dispatch) => {
 };
 
 export const login = (username, password) => dispatch => {
+    console.log(username, password);
     dispatch(authRequest());
     return (
         fetch(`${API_BASE_URL}/auth/login`, {
@@ -67,12 +68,7 @@ export const login = (username, password) => dispatch => {
                         : 'Unable to login, please try again';
                 dispatch(authError(err));
                 // Could not authenticate, so return a SubmissionError for Redux
-                // Form
-                return Promise.reject(
-                    new SubmissionError({
-                        _error: message
-                    })
-                );
+                // Form                
             })
     );
 };

@@ -24,3 +24,7 @@ input[type=text], input[type=password]{
 	text-decoration: underline;
 	margin-bottom: 5px;
 }
+
+.loginForm {
+	margin: 0 auto;
+}
